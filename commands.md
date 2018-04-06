@@ -1,16 +1,21 @@
 
 ## configure virtualenv and install tensorflow ##
 
-0. pip uninstall virtualenv
-1. sudo conda update --all
-2. conda install virtualenv
-3. cd ~/
-4. mkdir tensorflow-master
-5. cd tensorflow-master
-6. virtualenv --system-site-packages .
-7. easy_install -U pip 
-8. pip install --upgrade tensorflow
-9. check tensorflow is installed, on command-line: 
+	1. run the following commands in sequence:
+	
+	```
+		pip uninstall virtualenv
+		sudo conda update --all
+		conda install virtualenv
+		cd ~/
+		mkdir tensorflow-master
+		cd tensorflow-master
+		virtualenv --system-site-packages .
+		easy_install -U pip 
+		pip install --upgrade tensorflow
+	```
+
+	2. check tensorflow is installed, on command-line: 
 
 
 	```
