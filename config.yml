@@ -1,0 +1,4 @@
+# path to application data
+data:
+    local : /Users/lingxiao/Documents/Projects/CIS680/data/
+    remote: 

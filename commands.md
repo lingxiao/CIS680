@@ -13,11 +13,19 @@
 		easy_install -U pip 
 		pip install --upgrade tensorflow
 
-	2. check tensorflow is installed, on command-line: 
+	2. enter virtualenv
 
+		source ~/tensorflow-master/bin/activate
+
+	2. validate tensorflow is installed, on command-line: 
 
 		python
 		import tensorflow as tf
 		tf.__version__ 
 
 	it should say 1.7.0
+
+
+## set up environmental path ## 
+
+	export PYTHONPATH=$HOME/dirWithScripts/:$PYTHONPATH

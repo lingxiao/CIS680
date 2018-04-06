@@ -7,10 +7,17 @@
 from __future__ import print_function
 
 import os
-import nltk
 import pickle
+
+import tensorflow as tf
 import numpy as np
+import matplotlib
+
+from app import *
+
+app = App()
+
+############################################################
 
 
 
-print ("hello world")
